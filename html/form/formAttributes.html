@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The input value attribute</h1>
+
+<p>The value attribute specifies an initial value for an input field:</p>
+
+<form action="/action_page.php" novalidate>
+  <label for="title">title:</label>
+  <input type="text" id="title" name="title" value="Ms" readonly><br><br>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" value="John" ><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="Doe" required><br><br>
+  <label for="pass">password:</label>
+   <input type="password" id = "pass" required><br><br>
+   <label for="email">Email:</label>
+   <input type="email" id="email" required><br><br>
+  <label for="number">contactNo:</label>
+  <input type="number" name = "number" id = "number" value="7816058721" readonly><br><br>
+  <label for="dept">Select your Department</label><br><br>
+  <input type="radio" id = "dept "name = "dept" size="3">
+  <label for="dept">CS</label><br><br>
+  <input type="radio" id = "MCA" name = "dept">
+  <label for="MCA">MCA</label><br><br>
+  <input type="radio" id = "MBA "name = "dept" >
+  <label for="MBA">MBA</label><br><br>
+  <label for="sush"><strong>Which you like most:</strong></label><br><br>
+  <input type="checkbox" id = "bike">
+  <label for="bike">I like pulsar</label><br><br>
+  <input type="checkbox" id = "car">
+  <label for="bike">I like BMW car</label><br><br>
+  <input type="checkbox" id = "cycle">
+  <label for="bike">I like cycle</label><br><br>
+  <label for="blue">your favorite color:</label><br><br>
+  <input type="color"><br><br>
+  <label for="bdy">Select your birthday before 2024:</label>
+  <input type="date" id=" bdy" min="20-3-2024"><br><br>
+  <label for="bdy">Select your birthday after 2024:</label>
+  <input type="date" id=" bdy" max="1979-12-31"><br><br>
+  <label for="bdytm">Select your birthday time also:</label>
+  <input type="datetime-local" id=" bdytm"><br><br>
+  <label for="file">upload your resume:</label>
+  <input type="file" name="" id="file"><br><br>
+  <label for="">Select your joining:</label>
+  <input type="month" id="join"><br><br>
+  <label for="rid">your registration id:</label>
+  <input type="hidden" id=" rid" value="31245"><br><br>
+  <label for="chin">Select your birthday time also:</label>
+  <input type="file" id="chin" disabled><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+
+</form>
+
+</body>
+</html>
